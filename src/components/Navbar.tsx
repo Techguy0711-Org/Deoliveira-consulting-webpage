@@ -42,7 +42,7 @@ export default function Navbar() {
             <Zap size={16} className="text-white" />
           </div>
           <span>
-            De<span className="gradient-text">Oliveira</span>
+            De <span className="gradient-text">Oliveira</span>
           </span>
         </a>
 

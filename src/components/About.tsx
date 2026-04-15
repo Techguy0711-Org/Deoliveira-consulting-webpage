@@ -1,4 +1,5 @@
 import { CheckCircle2, Brain, Users, Rocket } from 'lucide-react'
+import founderImg from '../assets/founder.jpg'
 
 const values = [
   {
@@ -94,16 +95,18 @@ export default function About() {
             {/* Founder card */}
             <div className="p-6 rounded-2xl bg-gradient-to-br from-primary-950/60 to-violet-950/60 border border-primary-500/20">
               <div className="flex items-center gap-4 mb-3">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-400 to-violet-400 flex items-center justify-center text-white font-bold text-lg font-display">
-                  DO
-                </div>
+                <img
+                  src={founderImg}
+                  alt="Kristhian De Oliveira"
+                  className="w-12 h-12 rounded-full object-cover object-top border-2 border-primary-500/40"
+                />
                 <div>
-                  <div className="text-white font-semibold">Carlos DeOliveira</div>
+                  <div className="text-white font-semibold">Kristhian De Oliveira</div>
                   <div className="text-slate-400 text-sm">Founder & Lead Engineer</div>
                 </div>
               </div>
               <p className="text-slate-400 text-sm italic leading-relaxed">
-                "I started DeOliveira Consulting because I saw how AI was transforming what's
+                "I started De Oliveira Consulting because I saw how AI was transforming what's
                 possible in software development. Our clients get world-class digital products
                 delivered at a pace they never thought possible."
               </p>

@@ -79,7 +79,7 @@ export default function Footer() {
                 <Zap size={16} className="text-white" />
               </div>
               <span className="font-display font-bold text-xl text-white">
-                De<span className="gradient-text">Oliveira</span>
+                De <span className="gradient-text">Oliveira</span>
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
