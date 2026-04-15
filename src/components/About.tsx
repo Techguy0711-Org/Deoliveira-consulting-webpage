@@ -1,5 +1,5 @@
 import { CheckCircle2, Brain, Users, Rocket } from 'lucide-react'
-import founderImg from '../assets/founder.jpg'
+import founderImg from '../assets/IMG_0824.jpeg'
 
 const values = [
   {
