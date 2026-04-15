@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - claude/build-consultancy-website-1lX3O
   workflow_dispatch:
 
 permissions:
